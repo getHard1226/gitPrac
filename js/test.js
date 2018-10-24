@@ -2,7 +2,7 @@ var nameFlg = false;
 var pwdFlg = false;
 var buttonFlg = false;
 
-function name() {
+function nCheck() {
 	var userName = document.getElementById('userName').value;
 	var userNameLen = userName.length;
 
@@ -15,7 +15,7 @@ function name() {
 	judge();
 }
 
-function pwd() {
+function pCheck() {
 	var userPwd = document.getElementById('pwd').value;
 	var userPwdLen = userPwd.length;
 
