@@ -3,24 +3,24 @@
 <head>
 	<meta charset = "UTF-8">
 	<title>Hello Git</title>
+	<script type = "text/javascript" src = "js/test.js"></script>
 </head>
-	<p>Hello Git world!</p>
 	<form action = "transition.html" method = "POST">
 		<table>
 			<tr>
 				<td> Name : </td>
 				<td>
-					<input type = "text" name = "userName">
+					<input type = "text" name = "userName" id = "userName" onChange = "name()">
 				</td>
 			</tr>
 
 			<tr>
 				<td>Password : </td>
 				<td>
-					<input type = "text" name = "pwd">
+					<input type = "text" name = "pwd" id = "pwd" onChange = "pwd()">
 				</td>
 			</tr>
 		</table>
-		<input type = "submit" value = "next">
+		<input type = "submit" value = "next" id = "next" disabled>
 	</form>
 </html>
