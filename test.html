@@ -9,24 +9,24 @@
 <body>
 
 <table>
-	<input type = "button" id = "lever" disabled>
-	<tr>
+	<tr>	
 		<td id = "firstReel"></td>
 		<td id = "secondReel"></td>
 		<td id = "thirdReel"</td>
 	</tr>
 	<tr>
 		<td>
-			<input type = "button" id = "firstButton">
+			<input type = "button" class = "stopButton" onClick = "stop(1)">
 		</td>
 		<td>
-			<input type = "button" id = "secondButton">
+			<input type = "button" class = "stopButton" onClick = "stop(2)">
 		</td>
 		<td>
-			<input type = "button" id = "thirdButton">
+			<input type = "button" class = "stopButton" onClick = "stop(3)">
 		</td>
 	</tr>
 </table>
+<input type = "button" class = "lever" onClick = "start()">
 
 </body>
 </html>
