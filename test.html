@@ -4,17 +4,25 @@
 	<meta charset = "UTF-8">
 	<title>Hello Git</title>
 	<script type = "text/javascript" src = "js/test.js"></script>
+	<link rel = "stylesheet" type = "text/css" href = "css/test.css">
 </head>
 
 <body>
 
 <table>
-	<tr>	
+	<tr id = "reel">
+		<td></td>
 		<td id = "firstReel"></td>
 		<td id = "secondReel"></td>
 		<td id = "thirdReel"</td>
 	</tr>
-	<tr>
+	<tr id = "display">
+		<td id = "credit"></td>
+		<td id = "gogo" colspan = 3></td>
+	</tr>
+	<tr id = "buttonArea">
+		<td>
+			<input type = "button" class = "lever" onClick = "start()">
 		<td>
 			<input type = "button" class = "stopButton" onClick = "stop(1)">
 		</td>
@@ -26,7 +34,6 @@
 		</td>
 	</tr>
 </table>
-<input type = "button" class = "lever" onClick = "start()">
 
 </body>
 </html>

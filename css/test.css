@@ -1,0 +1,29 @@
+.stopButton {
+	background-color : #FF0000;
+	width : 20px;
+	height : 20px;
+	border : solid;
+	border-radius : 50%;
+}
+
+.lever {
+	background-color : #000000;
+	width : 22px;
+	height : 22px;
+	border : solid;
+	border-radius : 50%;
+}
+
+#reel {
+	text-align : center;
+	font-size : 4em;
+}
+
+#display {
+	text-align : center;
+	height : 30px;
+}
+
+#buttonArea {
+	text-align : center;
+}
